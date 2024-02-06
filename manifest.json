@@ -1,0 +1,48 @@
+{
+  "name": "Petal Fab - Soft Like Petal",
+  "short_name": "PetalFab",
+  "start_url": "petlafab.comm",
+  "display": "standalone",
+  "description": "Welcome to our store, where comfort meets style and customer satisfaction reigns supreme! We take great pride in being a premier seller of high-quality female undergarments, catering to all your intimate needs. At our establishment, we understand that what you wear underneath matters just as much as what you wear on the outside. That's why we are dedicated to offering you the finest selection of undergarments that combine luxurious comfort with trendy designs. Our commitment to excellence begins with the meticulous selection of top-notch materials to craft our products. We believe that the key to your confidence lies in the quality of our undergarments, and we spare no effort in ensuring that they meet the highest standards. From silky smooth fabrics to delicate lace detailing, each piece is designed to embrace your body with utmost grace. But beyond providing premium undergarments, our primary focus is you – our cherished customer. Your preferences, needs, and desires are at the forefront of everything we do. Our attentive and knowledgeable staff are here to guide you through your shopping journey, offering personalized recommendations that suit your individual style and size. We understand that every woman is unique, and so are her undergarment choices. Our store is a haven where you can indulge in a comfortable shopping experience. You'll find a wide array of sizes, colors, and styles, ensuring that there's something special for every taste and occasion. Whether you're seeking everyday essentials, alluring lingerie sets, or supportive undergarments, we've got you covered. Come, join us, and experience the essence of femininity with our exceptional selection of female undergarments. We look forward to serving you and becoming your go-to destination for all your intimate apparel needs. Your comfort and happiness are what drives us to continually strive for excellence in everything we do. Thank you for choosing us as your trusted undergarments provider.",
+  "lang": "Hinid / English",
+  "dir": "auto",
+  "theme_color": "#000000",
+  "background_color": "#000000",
+  "orientation": "any",
+  "icons": [
+    {
+      "src": "https://petalfab.com/assets/img/MyLOgo.PNG",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    },
+    {
+      "src": "https://petalfab.com/assets/img/MyLOgo.PNG",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any"
+    }
+  ],
+  "screenshots": [
+    {
+      "src": "https://www.pwabuilder.com/assets/screenshots/screen1.png",
+      "sizes": "2880x1800",
+      "type": "image/png",
+      "description": "A screenshot of the home page"
+    }
+  ],
+  "related_applications": [
+    {
+      "platform": "./assets/img/card.png",
+      "url": "Welcome to our store, where comfort meets style and customer satisfaction reigns supreme!"
+    }
+  ],
+  "prefer_related_applications": false,
+  "shortcuts": [
+    {
+      "name": "Petal Fab",
+      "url": "petalffab.com",
+      "description": "Petal Fab - Soft Like Petal"
+    }
+  ]
+}
