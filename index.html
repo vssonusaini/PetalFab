@@ -40,8 +40,8 @@
     <meta property="twitter:title" content="Petal Fab - Soft Like Petal" />
     <meta
       property="twitter:description"
-     content="Welcome to our store Petal Fab, where comfort meets style and customer satisfaction reigns supreme! We take great pride in being a premier seller of high-quality female undergarments"
-     />
+      content="Welcome to our store Petal Fab, where comfort meets style and customer satisfaction reigns supreme! We take great pride in being a premier seller of high-quality female undergarments"
+    />
     <meta
       property="twitter:image"
       content="https://petalfab.com/assets/img/card.png"
@@ -148,15 +148,32 @@
             </div>
           </div>
 
-          <form action="" class="contact__form">
+          <form
+            method="post"
+            autocomplete="off"
+            name="google-sheet"
+            class="contact__form"
+          >
             <div class="contact__inputs">
               <div class="contact__content">
-                <input type="email" placeholder=" " class="contact__input" />
+                <input
+                  type="email"
+                  placeholder=" "
+                  value=""
+                  name="email"
+                  class="contact__input"
+                />
                 <label for="" class="contact__label">Email</label>
               </div>
 
               <div class="contact__content">
-                <input type="text" placeholder=" " class="contact__input" />
+                <input
+                  type="text"
+                  placeholder=" "
+                  value=""
+                  name="subject"
+                  class="contact__input"
+                />
                 <label for="" class="contact__label">Subject</label>
               </div>
 
@@ -164,13 +181,20 @@
                 <textarea
                   name="message"
                   placeholder=" "
+                  value=""
                   class="contact__input"
                 ></textarea>
                 <label for="" class="contact__label">Message</label>
               </div>
             </div>
 
-            <button class="button button--flex">
+            <button
+              class="button button--flex"
+              type="submit"
+              name="submit"
+              value="Submit"
+              id="from_btn"
+            >
               Send Message
               <i class="ri-arrow-right-up-line button__icon"></i>
             </button>
